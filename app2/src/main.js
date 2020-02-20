@@ -9,6 +9,7 @@ Vue.config.productionTip = false;
 const vueLifecycles = singleSpaVue({
   Vue,
   appOptions: {
+    el: '#app2',
     render: (h) => h(App),
     router,
   },
